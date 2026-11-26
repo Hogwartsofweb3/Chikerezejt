@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #F7F8F5;
+  color: #465466;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(20, 125, 134, 0.2);
+  color: #142B4A;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F7F8F5; }
+::-webkit-scrollbar-thumb { background: #E4E9EC; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #147D86; }
+
+/* Focus ring */
+:focus-visible { outline: 2px solid #147D86; outline-offset: 2px; }
+
+@layer utilities {
+  .text-navy { color: #142B4A; }
+  .text-teal { color: #147D86; }
+  .text-slate-body { color: #465466; }
+  .bg-offwhite { background-color: #F7F8F5; }
+  .border-softgrey { border-color: #E4E9EC; }
+  .text-gold { color: #D6A84B; }
+}
