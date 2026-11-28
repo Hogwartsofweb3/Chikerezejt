@@ -5,7 +5,7 @@ import headshotUrl from '../../assets/headshot.jpg';
 const STATS = [
   { label: 'Records Analysed', value: '11,991' },
   { label: 'Revenue Verified', value: '₦42.01M' },
-  { label: 'Records Processed', value: '50,000+' },
+  { label: 'Votes Verified & Computed', value: '50,000+' },
   { label: 'Years Operations & Analytics', value: '3+' },
 ];
 
@@ -89,7 +89,7 @@ export const AboutSection: React.FC = () => (
                   role: 'Data Processing Officer',
                   duration: 'Electoral cycle · Nigeria',
                   detail:
-                    'Processed and validated over 50,000 electoral observation records, contributing to electoral integrity monitoring across polling units.',
+                    'Verified and computed over 50,000 votes through data entry and validation for the Election Result Analysis Dashboard (ERAD).',
                 },
                 {
                   org: 'NECA & NNPC',

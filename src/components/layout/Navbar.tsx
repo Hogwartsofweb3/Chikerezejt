@@ -112,7 +112,7 @@ export const Navbar: React.FC = () => {
               style={{ backgroundColor: '#142B4A', color: '#F7F8F5' }}
             >
               <FileText size={14} aria-hidden="true" />
-              Download CV
+              View CV
             </a>
           </div>
         </div>

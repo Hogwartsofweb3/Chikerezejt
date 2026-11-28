@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Download, Mail, MapPin, Briefcase } from 'lucide-react';
+import { ArrowDown, FileText, MapPin, Briefcase } from 'lucide-react';
 import headshotUrl from '../../assets/headshot.jpg';
 
 interface HeroSectionProps {
@@ -93,8 +93,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onViewProjects }) => {
                 className="flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm border-2 transition-all hover:bg-[#142B4A] hover:text-white"
                 style={{ borderColor: '#142B4A', color: '#142B4A' }}
               >
-                <Download size={15} aria-hidden="true" />
-                Download CV
+                <FileText size={15} aria-hidden="true" />
+                View CV
               </a>
 
               <button

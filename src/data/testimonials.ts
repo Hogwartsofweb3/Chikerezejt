@@ -3,26 +3,29 @@ import { Testimonial } from '../types';
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    name: 'TechBridge Senior Analytics Lead',
-    role: 'Lead Project Evaluator',
-    organization: 'TechBridge Data Analytics Fellowship',
+    name: 'Chrisantus Eze',
+    role: 'AI PhD Researcher — Robotics · Foundation Models · Agents',
+    organization: 'Internhub Skill Acquisition Training Program',
     rating: 5,
-    message: 'Timothy exhibits an exceptional eye for detail in data cleaning and business problem framing. While analysing the Capstone Retail dataset, he was among the few to catch the -2 quantity discrepancy on transaction T0120 that would have corrupted the entire laptop sales calculation. That instinct is what separates good analysts from great ones.',
+    message:
+      'I highly recommend Timothy as an administrative professional I worked closely with during the Internhub skill acquisition training program. Timothy brought sharp organizational abilities, discipline, and a strong sense of ownership to his administrative duties. He competently handled a wide range of logistical details and planning requirements to ensure smooth operations. Timothy is extremely capable, uses sound judgment, and can be counted on to get things done right. It was a pleasure collaborating with him.',
   },
   {
     id: '2',
-    name: 'Peer Fellow',
-    role: 'BI & Analytics Collaborator',
-    organization: 'Data Analytics Cohort',
+    name: 'Ezenwa Opara',
+    role: 'Software Engineer · LLM Engineer · MS ECE @Purdue',
+    organization: 'InternHub Training Program',
     rating: 5,
-    message: 'Working alongside Timothy during our data wrangling and Power BI sprint was inspiring. His ability to structure clean relational data models allowed our team to finish hours ahead of deadline with zero referential errors.',
+    message:
+      "It gives me great joy to recommend John Timothy. Having worked with him on InternHub training program, Timothy handled the logistics and other technicalities with so much care and efficiency. Items for the program arrived on time and venue was set. He demonstrated good management and leadership skills in working with other team members for the success of the program. Timothy is definitely someone you'd need to be on your team for effective delivery of tasks and assignments.",
   },
   {
     id: '3',
-    name: 'Department Project Reviewer',
-    role: 'Academic Supervisor',
-    organization: 'Federal University of Technology, Owerri (FUTO)',
+    name: 'Gabriel Nzekwe',
+    role: 'Designer at Mavin Records · Sports Design · Advertising',
+    organization: 'Team Collaborator',
     rating: 5,
-    message: 'Timothy blends strong Computer Science fundamentals with practical analytics execution. His technical rigour, curiosity, and structured problem-solving approach make him a valuable asset to any analytical team.',
+    message:
+      "Timothy is a good administrative personality, I've worked with him over some time and I'm still working with him. He's that guy you can hand over business responsibilities to and he'll supervise it without any side effects.",
   },
 ];
